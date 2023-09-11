@@ -41,7 +41,7 @@ public class MainWindow3 extends JFrame implements ActionListener {
         newimgF = imgF.getScaledInstance(700, 400, Image.SCALE_SMOOTH);
 
 
-        profitBtn = new JButton("Recojer Ganancia");
+        profitBtn = new JButton("COBRAR");
         profitBtn.setBounds(485, 365, 115, 20);
         profitBtn.addActionListener(e->{
             this.setVisible(false);
@@ -68,7 +68,7 @@ public class MainWindow3 extends JFrame implements ActionListener {
 
         profit= new JLabel(String.valueOf(val));
         profit.setForeground(Color.white);
-        profit.setBounds(50,232,100,20);
+        profit.setBounds(580,232,100,20);
         profit.setFont(new Font("lasVegasFont", Font.BOLD , 20));
 
         bet= new JTextField("1000");
